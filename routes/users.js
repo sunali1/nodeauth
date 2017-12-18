@@ -16,7 +16,7 @@ router.get('/login', function(req, res, next) {
 });
 router.post('/register', upload.single('profileimage'), function(req, res, next) {
   console.log(req.body.name);
-  console.log('1')
+  console.log('1');
 });
 
 module.exports = router;
