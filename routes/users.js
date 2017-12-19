@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var multer = require('multer');
+var multer = require('multer'); //multer for file uploads from Post routes
 var upload = multer({dest: './uploads'});
 
 /* GET users listing. */
@@ -15,8 +15,13 @@ router.get('/login', function(req, res, next) {
   res.render('login', { title: 'Login' });
 });
 router.post('/register', upload.single('profileimage'), function(req, res, next) {
-  console.log(req.body.name);
-  console.log('1');
+  var name = req.body.name;
+  var email = req.body.email;
+  var username = req.body.username;
+  var password = req.body.password;
+  var password2 = req.body.password2;
+
+  console.log(req.file); //req.files if uploads were an array more than one file
 });
 
 module.exports = router;
