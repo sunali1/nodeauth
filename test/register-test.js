@@ -26,7 +26,7 @@ describe("Register", function(){
     .expect(200)
     .send(profile)
     .end(function(err, res){
-      res.status.should.equal(400);
+      res.status.should.equal(200);
       done();
     });
   });
