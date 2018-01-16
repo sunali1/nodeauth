@@ -1,12 +1,13 @@
-##What is it:
-  This is a NodeJS project to build a user authentication system using NodeJS, Express and Passport following a Udemy course to learn building NodeJS applications.
+###What is it:
 
-##Testing
+  This is a NodeJS project to build a tested user authentication system using NodeJS, Express and Passport following a Udemy course to learn building NodeJS applications.
+
+###Testing
   The course did not include testing.
   I have added testing with Supertest, Mocha, Chai and ZombieJS.
 
 
-#Acknowledgements and Resources:
+###Acknowledgements and Resources:
 
   http://developmentnow.com/2015/02/05/make-your-node-js-api-bulletproof-how-to-test-with-mocha-chai-and-supertest/
 
