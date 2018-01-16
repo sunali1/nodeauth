@@ -1,6 +1,7 @@
-#What is it?
+##What is it:
   This is a NodeJS project to build a user authentication system using NodeJS, Express and Passport following a Udemy course to learn building NodeJS applications.
 
+##Testing
   The course did not include testing.
   I have added testing with Supertest, Mocha, Chai and ZombieJS.
 
